@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MediaProfile xmlns="http://xmlns.sony.net/pro/metadata/mediaprofile" createdAt="2019-05-25T05:41:09+01:00" version="2.10">
+	<Properties>
+		<System systemId="1098C3FFFED2C433" systemKind="ILCE-7M3" masterVersion="XAVC-M4@1.10.00"/>
+		<Attached mediaId="BA69B607278605CEC4331098C3FFFED2" mediaKind="AffordableMemoryCard" mediaName=""/>
+	</Properties>
+	<Contents>
+		<Material uri="./CLIP/C0001.MP4" type="MP4" videoType="AVC_3840_2160_HP@L51" audioType="LPCM16" fps="25p" dur="3900" ch="2" aspectRatio="16:9" offset="0" umid="060A2B340101010501010D4313000000D0F12E3C288605C11098C3FFFED2C433">
+			<RelevantInfo uri="./CLIP/C0001M01.XML" type="XML"/>
+			<RelevantInfo uri="./THMBNL/C0001T01.JPG" type="JPG"/>
+		</Material>
+	</Contents>
+</MediaProfile>
