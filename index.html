@@ -19,10 +19,16 @@
       <div class="page__heder">
         <nav>
           <ul class="site__nav">
-            <li class="nav__link"> <span>SHOP</span> <img class="icon__down" src="./img/angle-small-down.svg"/></li>
+            <li class="nav__link">
+              <span>SHOP</span>
+              <img alt="icon down" class="icon__down" src="./img/angle-small-down.svg" />
+            </li>
             <li class="nav__link">STYLE QUIZ</li>
             <li class="nav__link">ABOUT US</li>
-            <li class="nav__link"><span>STORIES</span> <img class="icon__down" src="./img/angle-small-down.svg"/></li>
+            <li class="nav__link">
+              <span>STORIES</span>
+              <img class="icon__down" alt="Icon down" src="./img/angle-small-down.svg" />
+            </li>
           </ul>
         </nav>
         <img
@@ -35,6 +41,7 @@
         <ul class="list__icons">
           <li>
             <img
+            alt="Icon user"
               src="./img/free-icon-font-user-3917688.svg"
               width="32"
               height="32"
@@ -42,6 +49,7 @@
           </li>
           <li>
             <img
+            alt="Icon search"
               src="./img/free-icon-font-search-3917754.svg"
               width="32"
               height="32"
@@ -49,6 +57,7 @@
           </li>
           <li>
             <img
+            alt="Icon bag"
               src="./img/free-icon-font-shopping-bag-add-3916648.svg"
               width="32"
               height="32"
@@ -62,7 +71,7 @@
         <div class="herro__wrapper">
           <p class="herro__text">ALL COLLECTIONS</p>
           <h1 class="herro__title">Elevate Your Everyday</h1>
-          <button class="herro__button">SHOP NOW</button>
+          <button type="button" class="herro__button">SHOP NOW</button>
         </div>
       </section>
       <section class="collection">
@@ -72,16 +81,21 @@
         </p>
         <div class="flex__container">
           <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="//rozetka.com.ua/all-categories-goods/"
             >Shop All
             <img
+            alt="Icon arrow right"
               class="inline"
               src="./img/arrow-right.svg"
               width="20"
               height="20"
           /></a>
-          <a
+          <a href="#Section_Design_Story"
             >Read Stories
             <img
+            alt="Icon arrow right"
               class="inline"
               src="./img/arrow-right.svg"
               width="20"
@@ -92,19 +106,19 @@
           <h2 class="title__collection">Maple Board Collection</h2>
           <ul class="list__collection">
             <li class="card__collection">
-              <img class="card__collection__img" src="./img/Frame1.jpg" />
+              <img alt="Photo maple board collection" class="card__collection__img" src="./img/Frame1.jpg" />
               <span class="text__collection">Maple Board - Short</span>
-              <span text__collection>$98.00</span>
+              <span class="text__collection">$98.00</span>
             </li>
             <li class="card__collection">
-              <img class="card__collection__img" src="./img/Frame2.jpg" />
+              <img alt="Photo maple board collection" class="card__collection__img" src="./img/Frame2.jpg" />
               <span class="text__collection">Maple Board - Long</span>
-              <span text__collection>$125.00</span>
+              <span class="text__collection">$125.00</span>
             </li>
             <li class="card__collection">
-              <img class="card__collection__img" src="./img/Frame3.jpg" />
+              <img alt="Photo maple board collection" class="card__collection__img" src="./img/Frame3.jpg" />
               <span class="text__collection">Maple Board - Wide</span>
-              <span text__collection>$158.00</span>
+              <span class="text__collection">$158.00</span>
             </li>
           </ul>
         </div>
@@ -117,12 +131,12 @@
             space,more time, more meaningful moments.
           </p>
         </div>
-        <img src="./img/Essentials.jpg" />
+        <img alt="plates and food" src="./img/Essentials.jpg" />
       </section>
       <section class="design">
-        <img class="img__design" src="./img/Design.jpg" />
+        <img alt="shelves with dishes" class="img__design" src="./img/Design.jpg" />
         <div class="wrapper_design">
-          <h2>Our Design Story</h2>
+          <h2 id="Section_Design_Story">Our Design Story</h2>
           <span>_____</span>
           <p>
             We believe in thoughtful, intentional living. So we promise not to
@@ -143,7 +157,7 @@
             memories. So grab a plate, pull up a seat, and stay a while
           </p>
         </div>
-        <img class="img__time" src="./img/Time.jpg" />
+        <img alt="shelves with dishes" class="img__time" src="./img/Time.jpg" />
       </section>
       <section class="signup">
         <h2 class="title__signup">Sign up to our newsletter</h2>
@@ -158,10 +172,10 @@
       <section class="moments">
         <h2 class="title__moments">#KinnMoments</h2>
         <ul class="list__moments">
-          <li><img src="./img/Moments1.jpg" /></li>
-          <li><img src="./img/Moments2.jpg" /></li>
-          <li><img src="./img/Moments3.jpg" /></li>
-          <li><img src="./img/Moments4.jpg" /></li>
+          <li><img alt="kitchen utensils" src="./img/Moments1.jpg" /></li>
+          <li><img alt="kitchen utensils" src="./img/Moments2.jpg" /></li>
+          <li><img alt="kitchen utensils" src="./img/Moments3.jpg" /></li>
+          <li><img alt="kitchen utensils" src="./img/Moments4.jpg" /></li>
         </ul>
       </section>
     </main>
@@ -172,27 +186,35 @@
           <span class="text__footer">_____</span>
           <p class="text__footer">
             Need to get in touch? Just email us <br />
-            at <a style="text-decoration: none;" href="mailto:hello@kinnhome.co">hello@kinnhome.co</a>
+            at
+            <a style="text-decoration: none" href="mailto:hello@kinnhome.co"
+              >hello@kinnhome.co</a
+            >
           </p>
         </li>
-        <li style="margin-right: 200px;">
+        <li style="margin-right: 200px">
           <ul class="list__footer__explore">
             <li class="item__explore">
               <p>EXSLORE</p>
-          <span>_____</span>
+              <span>_____</span>
             </li>
-            <li class="item__explore item__explore_svg"><span>SHOP</span> <img class="icon__down" src="./img/angle-small-down.svg"/></li>
+            <li class="item__explore item__explore_svg">
+              <span>SHOP</span>
+              <img alt="Icon down" class="icon__down" src="./img/angle-small-down.svg" />
+            </li>
             <li class="item__explore">STYLE QUIZ</li>
             <li class="item__explore">ABOUT US</li>
-            <li class="item__explore item__explore_svg"><span>STORIES</span> <img class="icon__down" src="./img/angle-small-down.svg"/></li>
+            <li class="item__explore item__explore_svg">
+              <span>STORIES</span>
+              <img alt="Icon down" class="icon__down" src="./img/angle-small-down.svg" />
+            </li>
           </ul>
-          
         </li>
-        <li style="margin-right: 370px;">
+        <li style="margin-right: 370px">
           <ul class="list__footer__help">
             <li class="item__help">
               <p>HELP</p>
-          <span>_____</span>
+              <span>_____</span>
             </li>
             <li class="item__help">FAQS + SHIPPING</li>
             <li class="item__help">CONTACT</li>
@@ -201,9 +223,9 @@
           </ul>
         </li>
         <li class="item__footer__social">
-          <img class="icon__social" src="./img/Facebook.svg"/>
-          <img class="icon__social" src="./img/Pinterest.svg"/>
-          <img class="icon__social" src="./img/Instagram.svg"/>
+          <img alt="icon Facebook" class="icon__social" src="./img/Facebook.svg" />
+          <img alt="icon Pinterest" class="icon__social" src="./img/Pinterest.svg" />
+          <img alt="icon Instagram" class="icon__social" src="./img/Instagram.svg" />
         </li>
       </ul>
     </footer>
