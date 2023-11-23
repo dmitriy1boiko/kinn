@@ -17,51 +17,73 @@
     <header>
       <div class="decor__element"></div>
       <div class="page__heder">
-        <nav>
+        <nav class="page__nav">
           <ul class="site__nav">
             <li class="nav__link">
-              <span>SHOP</span>
-              <img alt="icon down" class="icon__down" src="./img/angle-small-down.svg" />
+              <div class="custom__select">
+                <select class="select__explore__heder select">
+                  <option value="value1">Shop 2</option>
+                  <option value="value2" selected>Shop</option>
+                  <option value="value3">Shop 3</option>
+                </select>
+              </div>
             </li>
-            <li class="nav__link">STYLE QUIZ</li>
-            <li class="nav__link">ABOUT US</li>
             <li class="nav__link">
-              <span>STORIES</span>
-              <img class="icon__down" alt="Icon down" src="./img/angle-small-down.svg" />
+              <a target="_blank" rel="noopener noreferrer" href="#"> QUIZ</a>
+            </li>
+            <li class="nav__link">
+              <a target="_blank" rel="noopener noreferrer" href="#">ABOUT US</a>
+            </li>
+            <li class="nav__link">
+              <div class="custom__select">
+                <select class="select__explore__heder select">
+                  <option value="value1">Stories 2</option>
+                  <option value="value2" selected>Stories</option>
+                  <option value="value3">Stories 3</option>
+                </select>
+              </div>
             </li>
           </ul>
         </nav>
-        <img
-          src="./img/Rectangle.png"
-          width="90"
-          height="26"
-          alt="Logo"
-          class="logo"
-        />
+        <a href="./index.html">
+          <img
+            src="./img/Rectangle.png"
+            width="90"
+            height="26"
+            alt="Logo"
+            class="logo"
+          />
+        </a>
+
         <ul class="list__icons">
           <li>
-            <img
-            alt="Icon user"
-              src="./img/free-icon-font-user-3917688.svg"
-              width="32"
-              height="32"
-            />
+            <a href="#"
+              ><img
+                alt="Icon user"
+                src="./img/free-icon-font-user-3917688.svg"
+                width="32"
+                height="32"
+              />
+            </a>
           </li>
           <li>
-            <img
-            alt="Icon search"
-              src="./img/free-icon-font-search-3917754.svg"
-              width="32"
-              height="32"
-            />
+            <search>
+              <img
+                alt="Icon search"
+                src="./img/free-icon-font-search-3917754.svg"
+                width="32"
+                height="32"
+              />
+            </search>
           </li>
           <li>
-            <img
-            alt="Icon bag"
-              src="./img/free-icon-font-shopping-bag-add-3916648.svg"
-              width="32"
-              height="32"
-            />
+            <a href="#"
+              ><img
+                alt="Icon bag"
+                src="./img/free-icon-font-shopping-bag-add-3916648.svg"
+                width="32"
+                height="32"
+            /></a>
           </li>
         </ul>
       </div>
@@ -69,9 +91,9 @@
     <main>
       <section class="herro">
         <div class="herro__wrapper">
-          <p class="herro__text">ALL COLLECTIONS</p>
+          <p class="herro__text">All Collections</p>
           <h1 class="herro__title">Elevate Your Everyday</h1>
-          <button type="button" class="herro__button">SHOP NOW</button>
+          <a href="#" class="herro__link">Shop Now</a>
         </div>
       </section>
       <section class="collection">
@@ -81,21 +103,22 @@
         </p>
         <div class="flex__container">
           <a
+            style="text-decoration: underline"
             target="_blank"
             rel="noopener noreferrer"
             href="//rozetka.com.ua/all-categories-goods/"
             >Shop All
             <img
-            alt="Icon arrow right"
+              alt="Icon arrow right"
               class="inline"
               src="./img/arrow-right.svg"
               width="20"
               height="20"
           /></a>
-          <a href="#Section_Design_Story"
+          <a style="text-decoration: underline" href="#Section_Design_Story"
             >Read Stories
             <img
-            alt="Icon arrow right"
+              alt="Icon arrow right"
               class="inline"
               src="./img/arrow-right.svg"
               width="20"
@@ -105,27 +128,58 @@
         <div class="bg__container">
           <h2 class="title__collection">Maple Board Collection</h2>
           <ul class="list__collection">
-            <li class="card__collection">
-              <img alt="Photo maple board collection" class="card__collection__img" src="./img/Frame1.jpg" />
-              <span class="text__collection">Maple Board - Short</span>
-              <span class="text__collection">$98.00</span>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="//rozetka.com.ua/axentia-260467/p386704428/"
+                class="card__collection"
+              >
+                <img
+                  alt="Photo maple board collection"
+                  class="card__collection__img"
+                  src="./img/Frame1.jpg"
+                />
+                <span class="text__collection">Maple Board - Short</span>
+                <span class="text__collection">$98.00</span>
+              </a>
             </li>
-            <li class="card__collection">
-              <img alt="Photo maple board collection" class="card__collection__img" src="./img/Frame2.jpg" />
-              <span class="text__collection">Maple Board - Long</span>
-              <span class="text__collection">$125.00</span>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="//rozetka.com.ua/axentia-260467/p386704428/"
+                class="card__collection"
+                ><img
+                  alt="Photo maple board collection"
+                  class="card__collection__img"
+                  src="./img/Frame2.jpg"
+                />
+                <span class="text__collection">Maple Board - Long</span>
+                <span class="text__collection">$125.00</span></a
+              >
             </li>
-            <li class="card__collection">
-              <img alt="Photo maple board collection" class="card__collection__img" src="./img/Frame3.jpg" />
-              <span class="text__collection">Maple Board - Wide</span>
-              <span class="text__collection">$158.00</span>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="//rozetka.com.ua/axentia-260467/p386704428/"
+                class="card__collection"
+                ><img
+                  alt="Photo maple board collection"
+                  class="card__collection__img"
+                  src="./img/Frame3.jpg"
+                />
+                <span class="text__collection">Maple Board - Wide</span>
+                <span class="text__collection">$158.00</span></a
+              >
             </li>
           </ul>
         </div>
       </section>
       <section class="essentials">
         <div class="container__essentials">
-          <h2 class="title__essentials">THE ESSENTIALS</h2>
+          <h2 class="title__essentials">The Essentials</h2>
           <p class="text__essentials">
             We beliwe minimalism means more. More<br />
             space,more time, more meaningful moments.
@@ -134,7 +188,11 @@
         <img alt="plates and food" src="./img/Essentials.jpg" />
       </section>
       <section class="design">
-        <img alt="shelves with dishes" class="img__design" src="./img/Design.jpg" />
+        <img
+          alt="shelves with dishes"
+          class="img__design"
+          src="./img/Design.jpg"
+        />
         <div class="wrapper_design">
           <h2 id="Section_Design_Story">Our Design Story</h2>
           <span>_____</span>
@@ -165,17 +223,45 @@
           Receive special offers and first look at new products.
         </p>
         <form>
-          <input class="input__signup" />
-          <button class="button__signup" type="submit">SUBSCRIBE</button>
+          <input placeholder="enter your email" class="input__signup" />
+          <button class="button__signup" type="submit">Subscribe</button>
         </form>
       </section>
       <section class="moments">
         <h2 class="title__moments">#KinnMoments</h2>
         <ul class="list__moments">
-          <li><img alt="kitchen utensils" src="./img/Moments1.jpg" /></li>
-          <li><img alt="kitchen utensils" src="./img/Moments2.jpg" /></li>
-          <li><img alt="kitchen utensils" src="./img/Moments3.jpg" /></li>
-          <li><img alt="kitchen utensils" src="./img/Moments4.jpg" /></li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="//rozetka.com.ua/luminarc_n1491/p7780517/"
+              ><img alt="kitchen utensils" src="./img/Moments1.jpg"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="//rozetka.com.ua/luminarc_n1491/p7780517/"
+              ><img alt="kitchen utensils" src="./img/Moments2.jpg"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="//rozetka.com.ua/luminarc_n1491/p7780517/"
+              ><img alt="kitchen utensils" src="./img/Moments3.jpg"
+            /></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="//rozetka.com.ua/luminarc_n1491/p7780517/"
+              ><img alt="kitchen utensils" src="./img/Moments4.jpg"
+            /></a>
+          </li>
         </ul>
       </section>
     </main>
@@ -198,15 +284,25 @@
               <p>EXSLORE</p>
               <span>_____</span>
             </li>
-            <li class="item__explore item__explore_svg">
-              <span>SHOP</span>
-              <img alt="Icon down" class="icon__down" src="./img/angle-small-down.svg" />
+            <li class="item__explore">
+              <div class="custom__select">
+                <select class="select__explore select">
+                  <option value="value1">Shop 2</option>
+                  <option value="value2" selected>Shop</option>
+                  <option value="value3">Shop 3</option>
+                </select>
+              </div>
             </li>
             <li class="item__explore">STYLE QUIZ</li>
             <li class="item__explore">ABOUT US</li>
-            <li class="item__explore item__explore_svg">
-              <span>STORIES</span>
-              <img alt="Icon down" class="icon__down" src="./img/angle-small-down.svg" />
+            <li class="item__explore">
+              <div class="custom__select">
+                <select class="select__explore select">
+                  <option value="value1">Stories 2</option>
+                  <option value="value2" selected>Stories</option>
+                  <option value="value3">Stories 3</option>
+                </select>
+              </div>
             </li>
           </ul>
         </li>
@@ -223,9 +319,30 @@
           </ul>
         </li>
         <li class="item__footer__social">
-          <img alt="icon Facebook" class="icon__social" src="./img/Facebook.svg" />
-          <img alt="icon Pinterest" class="icon__social" src="./img/Pinterest.svg" />
-          <img alt="icon Instagram" class="icon__social" src="./img/Instagram.svg" />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="//www.facebook.com/?locale=uk_UA"
+            ><img
+              alt="icon Facebook"
+              class="icon__social"
+              src="./img/Facebook.svg"
+          /></a>
+          <a target="_blank" rel="noopener noreferrer" href="//ru.pinterest.com"
+            ><img
+              alt="icon Pinterest"
+              class="icon__social"
+              src="./img/Pinterest.svg"
+          /></a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="//www.instagram.com"
+            ><img
+              alt="icon Instagram"
+              class="icon__social"
+              src="./img/Instagram.svg"
+          /></a>
         </li>
       </ul>
     </footer>
